@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
-import logoImage from 'E:\TimetrackingWeb\src\asset\The Marketing House Vietnam logo.png';
+import LogoImage from '../asset/logo.png';
 
 interface LoginPageProps {
   onLogin: () => void;
@@ -23,7 +23,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
         <div className="flex items-center justify-center gap-3 mb-3">
           <img 
             src={logoImage} 
-            alt="The Marketing House Logo" 
+            alt="logo" 
             className="w-12 h-12 object-contain"
           />
           <div className="text-left">
