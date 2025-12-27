@@ -1,15 +1,19 @@
 {
-  "name": "",
+  "name": "timetracking-web",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "TimetrackingWeb - university project",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",
@@ -56,6 +60,11 @@
   "devDependencies": {
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "^5.1.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^3.5.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
   }
 }
