@@ -6,7 +6,7 @@ import { Tasks } from './components/Tasks';
 import { Reporting } from './components/Reporting';
 import { Home } from './components/Home';
 import { Settings } from './components/Settings';
-import { Notifications } from './components/Notifications';
+import { Notification } from './components/Notification';
 import { Sidebar } from './components/Sidebar';
 import { UserProfile, users } from './components/UserSwitcher';
 
@@ -50,7 +50,7 @@ export default function App() {
       case 'settings':
         return <Settings currentUser={currentUser} />;
       case 'notifications':
-        return <Notifications currentUser={currentUser} />;
+        return <Notification currentUser={currentUser} />;
       default:
         return <Home currentUser={currentUser} />;
     }
