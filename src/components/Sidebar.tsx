@@ -1,6 +1,6 @@
 import { Home, LayoutDashboard, FolderKanban, CheckSquare, BarChart3, Bell, Settings, LogOut, Menu, Search } from 'lucide-react';
 import { useState } from 'react';
-import logoImage from 'figma:asset/fb674debde1ec59c0ec8423261caa02295d019ca.png';
+import LogoImage from '../asset/logo.png';
 import { UserProfile, UserSwitcher } from './UserSwitcher';
 
 interface SidebarProps {
